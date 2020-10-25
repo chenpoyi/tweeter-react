@@ -1,0 +1,19 @@
+body > header  {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E3C471;
+  margin-top: 120px;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  body > header {
+    margin-left: 60px;
+    margin-top: 150px;
+   
+  }
+  }

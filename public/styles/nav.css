@@ -1,0 +1,24 @@
+nav{
+  height: 120px;
+  width: 100vw;
+  background-color: #4056A1;
+  color: #ffffff;
+  padding: 1.5em;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+nav > span {
+  font-family: 'Bungee';
+  font-size: 150%;
+}
+
+nav > button {
+  box-shadow: 0 0px;
+  border: 0;
+  cursor: pointer;
+}
